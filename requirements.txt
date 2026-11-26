@@ -1,0 +1,6 @@
+pandas==3.0.5
+scikit-learn==1.9.1
+boto3==1.43.126
+python-dotenv==1.2.3
+jupyter
+ipykernel

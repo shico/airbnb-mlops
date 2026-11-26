@@ -1,7 +1,27 @@
+# Окружения
 .venv/
+venv/
+env/
+
+# Кэш Python и Jupyter
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+
+# Секреты
 .env
 secretkeys.py
+
+# Данные и артефакты модели (создаются при запуске)
 data/
+models/
+*.pkl
+
+# Временные файлы
+*.log
+*.tmp
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
